@@ -1,0 +1,23 @@
+{
+  "name": "oss-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader for uploading your images or files to OSS/AWS Storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdli/oss-loader.git"
+  },
+  "keywords": [
+    "oss",
+    "loader"
+  ],
+  "author": "Steve Leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdli/oss-loader/issues"
+  },
+  "homepage": "https://github.com/sdli/oss-loader#readme"
+}
