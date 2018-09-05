@@ -26,7 +26,7 @@ function ossLoader(content, map, meta) {
         // push buffer to ali-oss
         co(function* () {
             let stream = fs.createReadStream(filePath);
-            let result = yield client.putStream( (folder ? folder : "") + fileName, stream);
+            let result = yield client.putStream( (folder ? folder : "bundles/") + fileName, stream);
             // var result = yield client.put(fileName, Buffers);
             if(result){
                 callback(null,`module.exports='${result.url}'`,map,meta);
